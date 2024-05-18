@@ -1,0 +1,222 @@
+<html lang="en">
+<head>
+   
+    <title>Піцерія "Good pizza"</title>
+    <style>
+       h1{
+    background-color: bisque;
+    border-radius: 40px;
+    padding: 30px;
+}
+ body {
+            font-family: Arial, sans-serif;
+            background-color:#c99a61;
+            color: #3d2c1c;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color:#e3b67f; 
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #3d2c1c; 
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            background-color: #f7e7d2;
+            margin-bottom: 20px;
+            border-radius: 10px; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            color:#3d2c1c; 
+        }
+        footer {
+            background-color: #c99a61; 
+            padding: 20px;
+            text-align: center;
+        }
+    .qwerty123 {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 30px;
+        }
+        .qwerty123 img {
+            margin-right: 20px;
+            max-width: 300px;
+            height: auto;
+        }
+        .qwerty123 div {
+            flex: 1;
+        }
+        .qwerty123 h2 {
+            margin: 0 0 10px;
+        }
+        .qwerty123 p {
+            margin: 0 0 10px;
+        }
+        .qwerty123 .price {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #3d2c1c;}
+            
+            .poiu{
+                background-color:#f7e7d2 ;
+                border-radius: 30px;
+                text-align: center;
+            }
+            .poi{
+                  background-color:#f7e7d2 ;
+                border-radius: 30px;
+                text-align: center;
+            }
+            .qwerty{
+                
+            }
+            .qaz{
+                border-radius: 40px;
+            }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 style="color: #3d2c1c;">Піцерія "Good pizza"</h1>
+       <nav>
+          <ul>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+     <h2 class="poi">піци</h2>
+  <section class="qwerty123">
+        <img src="https://kilogram.ua/wp-content/uploads/2021/08/margarita-768x768.png"  width="300" height="300">
+        <div>
+            <h2>Маргарита</h2>
+            <p>Це типова неаполітанська піца, виготовлена з помідорами Сан-Марцано, сиром моцарелла, свіжим базиліком, сіллю та оливковою олією.</p>
+            <p class="price">price-$4</p>
+        </div>
+    </section>
+
+    <section class="qwerty123" id="pepperoni">
+        <img src="https://kilogram.ua/wp-content/uploads/2021/08/peperoni-768x768.png"  width="300" height="300">
+        <div>
+            <h2>Пепероні</h2>
+            <p>Це класична італійська піца з томатним соусом, сиром моцарела та ковбасою пепероні.</p>
+            <p class="price">price-$5</p>
+        </div>
+    </section>
+
+    <section class="qwerty123" id="hawaiian">
+        <img src="https://kilogram.ua/wp-content/uploads/2021/08/gavai-768x768.png" width="300" height="300">
+        <div>
+            <h2>Гавайська</h2>
+            <p>Секрет популярності страви полягає у простоті її створення та рецептури. Вона поєднує у собі одразу два смаки – солодкий та солоний.</p>
+            <p class="price">price-$6</p>
+        </div>
+    </section>
+
+    <section class="qwerty123" id="4-cheese">
+        <img src="https://kilogram.ua/wp-content/uploads/2021/08/4-syra-768x768.png"  width="300" height="300">
+        <div>
+            <h2>4 сира</h2>
+            <p>Поєднує синій або зрілий сир, м'який сир (наприклад, Емменталь або Грюєр) або вершковий сир (наприклад, Робіола або Страккіно) та твердий сир (пармезан або пекоріно, тертий).</p>
+            <p class="price">price-$5</p>
+        </div>
+    </section>
+
+    <section class="qwerty123">
+        <img src="https://kilogram.ua/wp-content/uploads/2021/08/dyavola-768x768.png"  width="300" height="300">
+        <div>
+            <h2>Диявола</h2>
+            <p> - це традиційна італійська піца з гострими інгредієнтами, такими як пепероні або інші види салямі, часто з додаванням перцю чилі.Інші типові складники включають томатний соус, моцарелу або інші види сиру, та спеції, такі як орегано або базилік.</p>
+            <p class="price">price-$4</p>
+        </div>
+    </section>
+
+     <section class="qwerty123">
+        <img src="https://kilogram.ua/wp-content/uploads/2021/08/gribnaya-768x768.png"  width="300" height="300">
+        <div>
+            <h2>Грибна</h2>
+            <p> -Піца з маринованими опеньками, гливами, печерицями та білими грибами, з сиром моцарела, кримською цибулею, маринованими огріками та вершковим соусом</p>
+            <p class="price">price-$4</p>
+        </div>
+    </section>
+    
+      <h2 class="poi">Напої</h2>
+    
+         <section class="qwerty123">
+        <img src="https://e7.pngegg.com/pngimages/342/501/png-clipart-coca-cola-bottle-coca-cola-cherry-fizzy-drinks-diet-coke-coca-cola-flasche-cola-beverage-can.png" width="40" height="40">
+        <div>
+            <h2>Кока-кола</h2>
+            <p>Освіжаючий напій, який ідеально доповнить вашу піцу.</p>
+                <p class="price">$1.5</p>
+        </div>
+    </section>
+
+    <section class="qwerty123">
+        <img class="qaz" src="https://w1.pngwing.com/pngs/906/482/png-transparent-lemon-juice-mors-nectar-orange-juice-jaffa-drink-apple-juice.png"  width="80" height="80">
+        <div>
+            <h2>Ciк</h2>
+           <p>Натуральний сік з різних фруктів для вашого задоволення.</p>
+                <p class="price">$2</p>
+        </div>
+    </section>
+    
+
+     <h2 class="poi">Десерти</h2>
+    
+         <section class="qwerty123">
+        <img class="qaz" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJ4xuynCMsnzRSJf1PrjUtCV59cLC7nE4xHQZ9RQP8w&s" width="100" height="100">
+        <div>
+            <h2>Морозиво</h2>
+         <p>Смачне та охолоджуюче морозиво для десерту.</p>
+                <p class="price">$3</p>
+        </div>
+    </section>
+
+    <section class="qwerty123">
+        <img class="qaz" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzAngweikJoQkvKJGolGHB1ZL7X2BrT9CeETaInOiwMQ&s"  width="80" height="80">
+        <div>
+            <h2>Торт</h2>
+                <p>Ніжний торт для завершення вашого прийому їжі.</p>
+                <p class="price">$4</p>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <h2>Про нас</h2>
+        <p>Піцерія "Смачна Піца" пропонує широкий вибір смачних піц. Ми використовуємо тільки найкращі інгредієнти для створення наших страв.</p>
+    </section>
+
+    <section>
+        <h2>Контакти</h2>
+        <p>Адреса: вул. Піцерійна, 23, м.шпола</p>
+        <p>Телефон: (+380) 98-4707-629</p>
+        <p>Email:@smachna-pizza.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Піцерія "Good pizza"</p>
+    </footer>
+</body>
+</html>
